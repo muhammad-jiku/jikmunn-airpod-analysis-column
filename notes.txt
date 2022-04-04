@@ -1,0 +1,29 @@
+1. header sectin >  nav = link{home,reviews,dashboard,blogs,about}
+		box = 1.heading
+		      1.1 heading text
+		      1.2. button
+		      2. image 
+
+
+2. main section > review section > home = 3 reviews(name,id,reviewText,ratings)
+				   reviews = all reviews
+				   dashboard = 4 charts({month wise sell: linechart}, {investment vs revenue: areachart}, {investment vs revenue: barchart},{investment vs revenue: piechart})
+
+3. 404 route
+4. 6 commits
+5. favicon and title
+
+bonus
+-----
+1. readme: (project name, project link) and (description of projects in 4 bullet points)
+2. destructuring
+3. customhook
+4. blogs: 1. what is  context api ?
+	  2. what is semantic tag?
+	  3. inline-block vs inline-block elements
+5. responsive
+6. active link
+
+optional
+--------
+1. conditional rendering
