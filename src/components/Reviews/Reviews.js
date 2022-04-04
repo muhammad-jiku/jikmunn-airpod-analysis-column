@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useCarReviews from '../CustomHooks/useCarReviews/useCarReviews';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-  const [carReviews, setCarReviews] = useState([]);
-  useEffect(() => {
-    fetch('reviews.json')
-      .then((res) => res.json())
-      .then((data) => setCarReviews(data))
-      .catch((err) => console.log(err));
-  }, []);
+  const [carReviews] = useCarReviews();
+
+  // useEffect(() => {
+  //   fetch('reviews.json')
+  //     .then((res) => res.json())
+  //     .then((data) => setCarReviews(data))
+  //     .catch((err) => console.log(err));
+  // }, []);
 
   return (
     <div>
