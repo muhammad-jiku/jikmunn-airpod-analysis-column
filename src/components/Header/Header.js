@@ -1,14 +1,64 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/reviews">Reviews</Link>
-      <Link to="/dashboard">Dashboard</Link>
-      <Link to="/blogs">Blogs</Link>
-      <Link to="/about">About</Link>
+    <nav style={{ display: 'flex', justifyContent: 'center' }}>
+      <NavLink
+        style={({ isActive }) => {
+          return {
+            margin: '1rem 0',
+            color: isActive ? 'red' : '',
+          };
+        }}
+        to="/"
+      >
+        Home
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => {
+          return {
+            margin: '1rem 0',
+            color: isActive ? 'red' : '',
+          };
+        }}
+        to="/reviews"
+      >
+        Reviews
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => {
+          return {
+            margin: '1rem 0',
+            color: isActive ? 'red' : '',
+          };
+        }}
+        to="/dashboard"
+      >
+        Dashboard
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => {
+          return {
+            margin: '1rem 0',
+            color: isActive ? 'red' : '',
+          };
+        }}
+        to="/blogs"
+      >
+        Blogs
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => {
+          return {
+            margin: '1rem 0',
+            color: isActive ? 'red' : '',
+          };
+        }}
+        to="/about"
+      >
+        About
+      </NavLink>
     </nav>
   );
 };
