@@ -1,0 +1,86 @@
+[
+  {
+    "_id": 101,
+    "name": "Thomas W. Tomlin",
+    "pic": "https://randomuser.me/api/portraits/men/46.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 4
+  },
+  {
+    "_id": 102,
+    "name": "Helen M. Crain",
+    "pic": "https://randomuser.me/api/portraits/women/68.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 2
+  },
+  {
+    "_id": 103,
+    "name": "Karen M. Harris",
+    "pic": "https://randomuser.me/api/portraits/women/60.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 3
+  },
+  {
+    "_id": 104,
+    "name": "Brian J. Orsini",
+    "pic": "https://randomuser.me/api/portraits/men/40.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 4
+  },
+  {
+    "_id": 105,
+    "name": "Brittney C. Potter",
+    "pic": "https://randomuser.me/api/portraits/women/57.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 5
+  },
+  {
+    "_id": 106,
+    "name": "Marvin S. Callis",
+    "pic": "https://randomuser.me/api/portraits/men/60.jpg",
+    "review": "I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.",
+    "ratings": 3
+  },
+  {
+    "_id": 107,
+    "name": "Stephen A. Ellis",
+    "pic": "https://randomuser.me/api/portraits/men/59.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 4
+  },
+  {
+    "_id": 108,
+    "name": "Catherine D. Daugherty",
+    "pic": "https://randomuser.me/api/portraits/women/78.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 2
+  },
+  {
+    "_id": 109,
+    "name": "Joseph K. Maxwell",
+    "pic": "https://randomuser.me/api/portraits/men/31.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 3
+  },
+  {
+    "_id": 110,
+    "name": "Scott R. Brown",
+    "pic": "https://randomuser.me/api/portraits/men/73.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 4
+  },
+  {
+    "_id": 111,
+    "name": "Brittany G. Rogers",
+    "pic": "https://randomuser.me/api/portraits/women/17.jpg",
+    "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi iure eius quas consequuntur ipsum enim praesentium repudiandae quis repellendus nam, ab alias qui voluptatibus rem cupiditate, commodi corporis harum incidunt porro doloremque illo temporibus tempore impedit. Voluptas fugiat mollitia sequi unde maiores ex! Dolorem, expedita?",
+    "ratings": 5
+  },
+  {
+    "_id": 112,
+    "name": "Teddy R. Dematteo",
+    "pic": "https://randomuser.me/api/portraits/men/16.jpg",
+    "review": "I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.",
+    "ratings": 3
+  }
+]
