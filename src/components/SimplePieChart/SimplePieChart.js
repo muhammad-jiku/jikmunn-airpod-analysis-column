@@ -1,5 +1,5 @@
 import React from 'react';
-import { Legend, Pie, PieChart } from 'recharts';
+import { Pie, PieChart } from 'recharts';
 import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimplePieChart = () => {
@@ -7,17 +7,7 @@ const SimplePieChart = () => {
 
   return (
     <div>
-      <h3>Investment vs Revenue</h3>
-      <PieChart
-        width={400}
-        height={400}
-        margin={{
-          top: 10,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }}
-      >
+      <PieChart width={300} height={400}>
         <Pie
           data={chartData}
           dataKey="investment"

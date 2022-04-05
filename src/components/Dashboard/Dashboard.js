@@ -7,11 +7,12 @@ import SimplePieChart from '../SimplePieChart/SimplePieChart';
 const Dashboard = () => {
   return (
     <div>
-      <h2>This is Dashboard Page</h2>
-      <SimpleLineChart />
-      <SimpleAreaChart />
-      <SimpleBarChart />
-      <SimplePieChart />
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 md:mx-10">
+        <SimpleLineChart />
+        <SimpleAreaChart />
+        <SimpleBarChart />
+        <SimplePieChart />
+      </div>
     </div>
   );
 };

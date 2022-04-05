@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blogs = () => {
   return (
-    <div>
-      <h2>What is context api?</h2>
-      <p>
+    <div className="container mx-auto p-4">
+      <h2 className="text-3xl text-blue-900 my-5">What is context api?</h2>
+      <p className="text-justify">
         Prop drilling is the processing of getting data from grandparent
         component to parent component to child component by passing it through
         all levels of intermediary React components.
@@ -20,8 +20,8 @@ const Blogs = () => {
         the state.
       </p>
 
-      <h2>What is semantic tag?</h2>
-      <p>
+      <h2 className="text-3xl text-blue-900 my-5">What is semantic tag?</h2>
+      <p className="text-justify">
         Semantic HTML tags provide information about the contents of those tags
         that goes beyond just how they look on a page. Text that is enclosed in
         the tag is immediately recognized by the browser as some type of coding
@@ -32,8 +32,10 @@ const Blogs = () => {
         queries. It also gives more hooks for styling content.
       </p>
 
-      <h2>Differences between inline, block and inline-block elements?</h2>
-      <p>
+      <h2 className="text-3xl text-blue-900 my-5">
+        Differences between inline, block and inline-block elements?
+      </h2>
+      <p className="text-justify">
         <strong> inline </strong>elements don't start on a new line, they appear
         on the same line as the content and tags beside them. Browsers treat
         inline elements differently about margining and padding, margin or

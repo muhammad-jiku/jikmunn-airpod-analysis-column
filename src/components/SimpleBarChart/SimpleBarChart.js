@@ -12,26 +12,13 @@ import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimpleBarChart = () => {
   const [chartData] = useChartData();
-  // useEffect(() => {
-  //   fetch('data.json')
-  //     .then((res) => res.json())
-  //     .then((chart) => setChartData(chart))
-  //     .catch((err) => console.log(err));
-  // }, []);
+
   return (
     <div>
-      <h3>Investment vs Revenue</h3>
-      <BarChart
-        width={830}
-        height={250}
-        data={chartData}
-        margin={{
-          top: 10,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }}
-      >
+      <h3 className="text-indigo-700 text-3xl ml-20 my-4">
+        Investment vs Revenue
+      </h3>
+      <BarChart width={300} height={250} data={chartData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />

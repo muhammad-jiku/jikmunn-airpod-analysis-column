@@ -3,59 +3,34 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav style={{ display: 'flex', justifyContent: 'center' }}>
+    <nav className="flex items-center justify-center bg-orange-600">
       <NavLink
-        style={({ isActive }) => {
-          return {
-            margin: '1rem 0',
-            color: isActive ? 'red' : '',
-          };
-        }}
         to="/"
+        className="p-3 text-white text-lg hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
       >
         Home
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return {
-            margin: '1rem 0',
-            color: isActive ? 'red' : '',
-          };
-        }}
         to="/reviews"
+        className="p-3 text-white text-lg hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
       >
         Reviews
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return {
-            margin: '1rem 0',
-            color: isActive ? 'red' : '',
-          };
-        }}
         to="/dashboard"
+        className="p-3 text-white text-lg hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
       >
         Dashboard
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return {
-            margin: '1rem 0',
-            color: isActive ? 'red' : '',
-          };
-        }}
         to="/blogs"
+        className="p-3 text-white text-lg hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
       >
         Blogs
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return {
-            margin: '1rem 0',
-            color: isActive ? 'red' : '',
-          };
-        }}
         to="/about"
+        className="p-3 text-white text-lg hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
       >
         About
       </NavLink>

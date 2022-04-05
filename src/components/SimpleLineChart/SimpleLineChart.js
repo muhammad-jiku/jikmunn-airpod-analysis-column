@@ -15,18 +15,8 @@ const SimpleLineChart = () => {
 
   return (
     <div>
-      <h3>Month wise sell</h3>
-      <LineChart
-        width={500}
-        height={300}
-        data={chartData}
-        margin={{
-          top: 10,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }}
-      >
+      <h3 className="text-indigo-700 text-3xl ml-20 my-4">Month wise sell</h3>
+      <LineChart width={300} height={300} data={chartData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />
