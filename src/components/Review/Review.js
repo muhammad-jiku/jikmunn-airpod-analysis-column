@@ -8,19 +8,23 @@ const Review = (props) => {
   const { name, pic, review, ratings, date } = carReview;
 
   return (
-    <div className="p-5 mx-10 border-solid rounded border">
+    <div className="custom-review-section-style">
       <div className="flex items-center">
-        <img src={pic} alt={name} className="rounded-full imageOfReviewer" />
-        <h2 className="mx-5">{name}</h2>
+        <img
+          src={pic}
+          alt={name}
+          className="rounded-full custom-review-image-section-style"
+        />
+        <h3 className="custom-review-card-name-section-style">{name}</h3>
       </div>
       <div className="flex items-center my-5">
-        <p className="text-3xl">{ratings}</p>
-        <StarIcon className="h-16 text-yellow-400" />
-        <p className="text-xl text-gray-700 ml-16 right-0">
+        <h3 className="custom-review-card-ratings-section-style">{ratings}</h3>
+        <StarIcon className="h-6 text-yellow-400" />
+        <p className="custom-review-card-date-section-style">
           <small>{date}</small>
         </p>
       </div>
-      <p className="text-2xl">
+      <p className="custom-review-card-review-section-style">
         <span className="text-3xl">“</span>
         {review}
         <span className="text-3xl">”</span>

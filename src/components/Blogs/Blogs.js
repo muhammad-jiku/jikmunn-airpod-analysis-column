@@ -1,10 +1,12 @@
 import React from 'react';
+import './Blogs.css';
 
 const Blogs = () => {
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-3xl text-blue-900 my-5">What is context api?</h2>
-      <p className="text-justify">
+      <h1 className="custom-heading-style">Some important qusetion to know</h1>
+      <h3 className="custom-blogs-heading-style">What is context api?</h3>
+      <p className="custom-blogs-para-style">
         Prop drilling is the processing of getting data from grandparent
         component to parent component to child component by passing it through
         all levels of intermediary React components.
@@ -19,9 +21,11 @@ const Blogs = () => {
         might need that store. Consumer is a component that consumes and uses
         the state.
       </p>
+      <br />
+      <br />
 
-      <h2 className="text-3xl text-blue-900 my-5">What is semantic tag?</h2>
-      <p className="text-justify">
+      <h3 className="custom-blogs-heading-style">What is semantic tag?</h3>
+      <p className="custom-blogs-para-style">
         Semantic HTML tags provide information about the contents of those tags
         that goes beyond just how they look on a page. Text that is enclosed in
         the tag is immediately recognized by the browser as some type of coding
@@ -31,11 +35,13 @@ const Blogs = () => {
         engines, ensuring that the right pages are delivered for the right
         queries. It also gives more hooks for styling content.
       </p>
+      <br />
+      <br />
 
-      <h2 className="text-3xl text-blue-900 my-5">
+      <h3 className="custom-blogs-heading-style">
         Differences between inline, block and inline-block elements?
-      </h2>
-      <p className="text-justify">
+      </h3>
+      <p className="custom-blogs-para-style">
         <strong> inline </strong>elements don't start on a new line, they appear
         on the same line as the content and tags beside them. Browsers treat
         inline elements differently about margining and padding, margin or
@@ -51,6 +57,8 @@ const Blogs = () => {
         values can be set and also padding and margins can be added on all four
         sides.
       </p>
+      <br />
+      <br />
     </div>
   );
 };

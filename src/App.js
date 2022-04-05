@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard';
@@ -11,7 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div>
-      <Header></Header>
+      <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

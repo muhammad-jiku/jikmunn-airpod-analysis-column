@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useCarReviews = () => {
+const useAirPodReviews = () => {
   const [carReviews, setCarReviews] = useState([]);
   useEffect(() => {
     fetch('reviews.json')
@@ -12,4 +12,4 @@ const useCarReviews = () => {
   return [carReviews, setCarReviews];
 };
 
-export default useCarReviews;
+export default useAirPodReviews;
