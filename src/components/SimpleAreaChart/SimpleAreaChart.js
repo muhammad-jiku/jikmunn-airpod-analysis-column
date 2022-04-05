@@ -3,6 +3,7 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
+  Legend,
   Tooltip,
   XAxis,
   YAxis,
@@ -30,6 +31,7 @@ const SimpleAreaChart = () => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
+        <Legend />
         <Area
           type="monotone"
           dataKey="investment"
@@ -44,7 +46,6 @@ const SimpleAreaChart = () => {
           stroke="#82ca9d"
           fill="#82ca9d"
         />
-        
       </AreaChart>
     </div>
   );

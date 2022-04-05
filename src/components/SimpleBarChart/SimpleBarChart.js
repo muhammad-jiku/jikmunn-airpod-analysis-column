@@ -1,5 +1,13 @@
 import React from 'react';
-import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
 import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimpleBarChart = () => {
@@ -28,6 +36,7 @@ const SimpleBarChart = () => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
+        <Legend />
         <Bar dataKey="investment" stackId="a" fill="#8884d8" />
         <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
       </BarChart>

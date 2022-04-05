@@ -1,10 +1,9 @@
 import React from 'react';
-import { Pie, PieChart } from 'recharts';
+import { Legend, Pie, PieChart } from 'recharts';
 import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimplePieChart = () => {
   const [chartData] = useChartData();
-
 
   return (
     <div>
