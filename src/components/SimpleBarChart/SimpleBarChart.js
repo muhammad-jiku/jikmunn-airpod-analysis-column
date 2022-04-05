@@ -12,6 +12,7 @@ const SimpleBarChart = () => {
   // }, []);
   return (
     <div>
+      <h3>Investment vs Revenue</h3>
       <BarChart
         width={830}
         height={250}
@@ -27,7 +28,8 @@ const SimpleBarChart = () => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
-        <Bar dataKey="revenue" fill="#8884d8" />
+        <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+        <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
       </BarChart>
     </div>
   );

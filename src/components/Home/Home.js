@@ -1,16 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useCarReviews from '../CustomHooks/useCarReviews/useCarReviews';
 import Review from '../Review/Review';
 
 const Home = () => {
   const [carReviews] = useCarReviews();
+  const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   fetch('reviews.json')
-  //     .then((res) => res.json())
-  //     .then((data) => setCarReviews(data))
-  //     .catch((err) => console.log(err));
-  // }, []);
+  const showAllReviews = () => {
+    navigate('/reviews');
+  };
 
   return (
     <div>
@@ -22,6 +21,7 @@ const Home = () => {
         {carReviews.slice(0, 3).map((carReview) => (
           <Review key={carReview?._id} carReview={carReview} />
         ))}
+        <button onClick={showAllReviews}>See more</button>
       </main>
       {/* main sectin ends */}
     </div>

@@ -4,15 +4,11 @@ import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimplePieChart = () => {
   const [chartData] = useChartData();
-  // useEffect(() => {
-  //   fetch('data.json')
-  //     .then((res) => res.json())
-  //     .then((chart) => setChartData(chart))
-  //     .catch((err) => console.log(err));
-  // }, []);
+
 
   return (
     <div>
+      <h3>Investment vs Revenue</h3>
       <PieChart
         width={400}
         height={400}
@@ -25,7 +21,7 @@ const SimplePieChart = () => {
       >
         <Pie
           data={chartData}
-          dataKey="sell"
+          dataKey="investment"
           cx="50%"
           cy="50%"
           outerRadius={60}

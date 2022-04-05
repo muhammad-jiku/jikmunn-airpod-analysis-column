@@ -12,15 +12,10 @@ import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimpleLineChart = () => {
   const [chartData] = useChartData();
-  // useEffect(() => {
-  //   fetch('data.json')
-  //     .then((res) => res.json())
-  //     .then((chart) => setChartData(chart))
-  //     .catch((err) => console.log(err));
-  // }, []);
 
   return (
     <div>
+      <h3>Month wise sell</h3>
       <LineChart
         width={500}
         height={300}
@@ -39,11 +34,10 @@ const SimpleLineChart = () => {
         <Legend />
         <Line
           type="monotone"
-          dataKey="revenue"
+          dataKey="sell"
           stroke="#8884d8"
           activeDot={{ r: 8 }}
         />
-        {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
       </LineChart>
     </div>
   );

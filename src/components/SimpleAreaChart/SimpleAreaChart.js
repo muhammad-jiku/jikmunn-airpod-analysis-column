@@ -11,14 +11,10 @@ import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimpleAreaChart = () => {
   const [chartData] = useChartData();
-  // useEffect(() => {
-  //   fetch('data.json')
-  //     .then((res) => res.json())
-  //     .then((chart) => setChartData(chart))
-  //     .catch((err) => console.log(err));
-  // }, []);
+
   return (
     <div>
+      <h3>Investment vs Revenue</h3>
       <AreaChart
         width={500}
         height={400}
@@ -36,10 +32,19 @@ const SimpleAreaChart = () => {
         <Tooltip />
         <Area
           type="monotone"
-          dataKey="revenue"
+          dataKey="investment"
+          stackId="1"
           stroke="#8884d8"
           fill="#8884d8"
         />
+        <Area
+          type="monotone"
+          dataKey="revenue"
+          stackId="1"
+          stroke="#82ca9d"
+          fill="#82ca9d"
+        />
+        
       </AreaChart>
     </div>
   );
