@@ -8,6 +8,7 @@ const Review = (props) => {
   const { name, pic, review, ratings, date } = carReview;
 
   return (
+    // {/* custom class added */}
     <div className="custom-review-section-style">
       <div className="flex items-center">
         <img

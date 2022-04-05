@@ -8,6 +8,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
+// custom hook imported
 import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimpleBarChart = () => {

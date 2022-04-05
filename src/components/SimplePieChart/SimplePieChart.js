@@ -1,5 +1,6 @@
 import React from 'react';
 import { Pie, PieChart } from 'recharts';
+// custom hook imported
 import useChartData from '../CustomHooks/useChartData/useChartData';
 
 const SimplePieChart = () => {

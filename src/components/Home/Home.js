@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+// custom hooks added
 import useAirPodReviews from '../CustomHooks/useAirPodReviews/useAirPodReviews';
 import Review from '../Review/Review';
 import image from '../../images/airPod.jpg';
@@ -63,7 +64,6 @@ const Home = () => {
         </div>
       </div>
       {/* main sectin ends */}
-      {/* “*” */}
     </div>
   );
 };

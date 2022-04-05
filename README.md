@@ -2,11 +2,7 @@
 
 live-stelink: https://jikmunn-airpod-analysis.netlify.app/
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+## This project contains:
 
 * This site reviewed and analyze apple airpod
 * This site is build with react

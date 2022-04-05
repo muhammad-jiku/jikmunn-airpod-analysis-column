@@ -4,6 +4,7 @@ import './Blogs.css';
 const Blogs = () => {
   return (
     <div className="container mx-auto p-4">
+      {/* custom class added */}
       <h1 className="custom-heading-style">Some important qusetion to know</h1>
       <h3 className="custom-blogs-heading-style">What is context api?</h3>
       <p className="custom-blogs-para-style">
