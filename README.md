@@ -1,6 +1,6 @@
 # Jikmunn Airpod review and anaylzing column
 
-live-stelink: https://jikmunn-airpod-analysis.netlify.app/
+## site-link: https://jikmunn-airpod-analysis.netlify.app/
 
 ## This project contains:
 
